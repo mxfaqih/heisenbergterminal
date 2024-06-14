@@ -1,0 +1,78 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 8px;
+}
+
+.card-header {
+    background-color: #333;
+    border-bottom: 1px solid #444;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+h1, h2, h5 {
+    color: #fff;
+}
+
+p, label {
+    color: #ccc;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.form-control {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.form-control:focus {
+    background-color: #444;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.rating > label {
+    color: #444;
+}
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+}
+
+.border {
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+.badge-info {
+    background-color: #007bff;
+    color: #fff;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}

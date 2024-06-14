@@ -1,0 +1,36 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: #333;
+    border: none;
+}
+
+.card .card-header, .card .card-body {
+    background-color: #333;
+}
+
+.card .card-title {
+    color: #ffffff;
+}
+
+.card .card-text {
+    color: #cccccc;
+}
+
+.btn-light {
+    background-color: #ffffff;
+    color: #0E0E0E;
+}
+
+.container {
+    background-color: #121212;
+}
+
+.list-group-item {
+    background-color: #333;
+    color: #ffffff;
+}
